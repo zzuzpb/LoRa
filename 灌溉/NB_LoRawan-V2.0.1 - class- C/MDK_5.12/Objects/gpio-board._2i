@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS\Device\ST\STM32L0xx\Include -I ..\CMSIS\Include -I ..\stm32L0xx_HAL\Inc\Legacy -I ..\stm32L0xx_HAL\Inc -I ..\USER -I ..\HAL\system -I ..\HAL\inc -I ..\Lib\LoRawan-node\misc -I ..\Lib\LoRawan-node\radio -I ..\Lib\LoRawan-node\radio\sx1276 -I ..\Lib\LoRawan-node\mac -I ..\Lib\LoRawan-node\crypto -I ..\Lib --C99
+-I E:\NBI项目\NBI_LoRa\版本管理\LoRa_Project\NB_LoRawan-V2.0\MDK_5.12\RTE
+-I D:\mysaftware\keil_5.12\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include
+-I D:\mysaftware\keil_5.12\ARM\CMSIS\Include
+-D__UVISION_VERSION="518" -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_MODEM_LORA -DUSE_BAND_433
+-o .\objects\gpio-board.o --omf_browse .\objects\gpio-board.crf --depend .\objects\gpio-board.d --feedback ".\Objects\stm32L073_mode.fed" "..\HAL\src\gpio-board.c"

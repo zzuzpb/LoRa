@@ -1,0 +1,11 @@
+---- OnRxWindow2TimerEvent Matches (10 in 3 files) ----
+LoRaMac.c (lib\lorawan-node\mac):        OnRxWindow2TimerEvent( );
+LoRaMac.c (lib\lorawan-node\mac):        OnRxWindow2TimerEvent( );
+LoRaMac.c (lib\lorawan-node\mac)://        OnRxWindow2TimerEvent( );
+LoRaMac.c (lib\lorawan-node\mac):        OnRxWindow2TimerEvent( );
+LoRaMac.c (lib\lorawan-node\mac):        OnRxWindow2TimerEvent( );
+LoRaMac.c (lib\lorawan-node\mac):void OnRxWindow2TimerEvent( void )
+LoRaMac.c (lib\lorawan-node\mac):    TimerInit( &RxWindowTimer2, OnRxWindow2TimerEvent );
+LoRaMac.c (lib\lorawan-node\mac):                    OnRxWindow2TimerEvent( );
+LoRaMac.h (lib\lorawan-node\mac):void OnRxWindow2TimerEvent( void );
+Sx1276.c (lib\lorawan-node\radio\sx1276):                OnRxWindow2TimerEvent( ); ///设置接受模式为节点侦听模式	
